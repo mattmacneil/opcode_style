@@ -116,29 +116,43 @@
 		
 		<div class="content-container">
 
+			<span class="headliner color-blue">Membership:</span>
+
 			<div class="landing-membership">
 
 				<div class="landing-membership-cell">
 
-					hi
+					<div class="landing-membership-icon landing-membership-icon-1">
+					</div><!-- landing membership icon -->
+
+					Join our open community. Learn and grow with fellow veterans, servicemembers, and military spouses. Work with your peers to build open source projects.
 
 				</div><!-- landing membership cell -->
 
 				<div class="landing-membership-cell">
 
-					hi
+					<div class="landing-membership-icon landing-membership-icon-2">
+					</div><!-- landing membership icon -->
+
+					Find new opportunities in the tech industry through ourscholarship program. Attend software development conferencesand coding bootcamps, and build the skills of the future.
 
 				</div><!-- landing membership cell -->
 
 				<div class="landing-membership-cell">
 
-					hi
+					<div class="landing-membership-icon landing-membership-icon-3">
+					</div><!-- landing membership icon -->
+
+					Jumpstart your journey. Access our mentorship and coding channels, and learn from senior software engineers at top-tier tech companies with years of experience.
 
 				</div><!-- landing membership cell -->
 
 				<div class="landing-membership-cell">
 
-					hi
+					<div class="landing-membership-icon landing-membership-icon-4">
+					</div><!-- landing membership icon -->
+
+					Launch your career in the tech industry on our job board. Find local and remote jobs all across the country.Get expert feedback on your portfolio, side project, or resume.
 
 				</div><!-- landing membership cell -->
 
@@ -148,6 +162,15 @@
 
 	</section><!-- landing membership -->
 
+	<section class="section-pad">
+	
+		<div class="content-container">
+
+			hi
+
+		</div><!-- content container -->	
+
+	</section><!-- landing more information -->
 
 <?php 
 
