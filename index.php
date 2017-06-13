@@ -26,8 +26,6 @@
 
 								<div class="hero-imagebox-overlay">
 
-									hi
-
 								</div><!-- hero imagebox overlay -->
 
 							</div><!-- hero imagebox overlay inner -->
@@ -41,6 +39,9 @@
 		</div><!-- hero overlay -->
 
 	</div><!-- hero  -->
+
+	<div class="landing-hero-block">
+	</div><!-- landing hero block -->
 
 
 <?php 

@@ -1,6 +1,40 @@
 @import "vars";
 @import "mixins";
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1050px){
 
-} //1024
+	.hero-content {
+		width: 70%;
+	}
+
+	.hero-imagebox {
+		width: 70%;
+		margin-left: 15%;
+		height: 15em;
+		position: relative;
+	}
+
+} //1050
+
+@media screen and (max-width: 760px){
+
+	.nav-links {
+		display: none;
+	}
+
+	.nav-mobile-button {
+		display: inline-block;
+	}
+
+	.hero-content {
+		width: 90%;
+	}
+
+	.hero-imagebox {
+		width: 90%;
+		margin-left: 5%;
+		height: 15em;
+		position: relative;
+	}
+
+} //1050
