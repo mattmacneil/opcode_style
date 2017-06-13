@@ -37,4 +37,36 @@
 		position: relative;
 	}
 
+	.what-we-do-container {
+		flex-direction: column;
+	}
+
+	.what-we-do-cell {
+		width: 100%;
+		margin-bottom: 2em;
+		@include divshadow(lighten($grey, 30%));
+		display: flex;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+		.what-we-do-image {
+			width: 30%;
+			flex: 1;
+			float: left;	
+			margin-bottom: 0;
+			height: 12em;
+			height: auto;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+
+		.what-we-do-content {
+			width: 70%;
+			float: right;
+			padding: 2em;
+			padding-bottom: 3em;
+			margin-bottom: 0;
+		}
+
 } //1050

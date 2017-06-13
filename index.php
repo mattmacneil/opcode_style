@@ -32,7 +32,7 @@
 
 										<br />
 
-										<span>- Cpl Daniel Smith, CodeAcademy Graduate</span>
+										<em>- Cpl Daniel Smith, CodeAcademy Graduate</em>
 
 									</div><!-- hero imagebox quote -->
 
@@ -85,13 +85,13 @@
 
 						<h2>Mentor Program:</h2>
 
-						Our career services team provides job opportunities, career guidance and resume reviews, and prep for technical interviews.
+						Our mentor program connects members with seasoned software developers to help you progress and achieve your goals.
 
 					</div><!-- what we do content -->
 
 				</div><!-- what we do cell -->
 
-				<div class="what-we-do-cell">
+				<div class="what-we-do-cell what-we-do-last">
 
 					<div class="what-we-do-image what-we-do-image-3">
 					</div><!-- what we do image -->
@@ -100,7 +100,7 @@
 
 						<h2>Conference Scholarships:</h2>
 
-						Our career services team provides job opportunities, career guidance and resume reviews, and prep for technical interviews.
+						Operation Code™ partners with tech conferences around the world and offers scholarship tickets to events throughout the year.
 
 					</div><!-- what we do content -->
 
@@ -111,6 +111,42 @@
 		</div><!-- content container -->
 		
 	</section><!-- what we do -->
+
+	<section class="section-pad bg-white">
+		
+		<div class="content-container">
+
+			<div class="landing-membership">
+
+				<div class="landing-membership-cell">
+
+					hi
+
+				</div><!-- landing membership cell -->
+
+				<div class="landing-membership-cell">
+
+					hi
+
+				</div><!-- landing membership cell -->
+
+				<div class="landing-membership-cell">
+
+					hi
+
+				</div><!-- landing membership cell -->
+
+				<div class="landing-membership-cell">
+
+					hi
+
+				</div><!-- landing membership cell -->
+
+			</div><!-- landing membership -->
+			
+		</div><!-- content container -->
+
+	</section><!-- landing membership -->
 
 
 <?php 
