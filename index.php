@@ -157,6 +157,12 @@
 				</div><!-- landing membership cell -->
 
 			</div><!-- landing membership -->
+
+			<div class="landing-membership-button">
+
+				Join Us Today &rarr;
+
+			</div><!-- landing membership button -->
 			
 		</div><!-- content container -->
 
@@ -166,7 +172,53 @@
 	
 		<div class="content-container">
 
-			hi
+			<span class="headliner">More Information:</span>
+
+			<div class="landing-more-info">
+
+				<div class="landing-more-info-cell landing-more-info-cell-1">
+
+					<div class="landing-more-info-cell-overlay">
+
+						<div class="landing-more-info-title">
+
+							<span>Military Families and Spouses</span>
+
+						</div><!-- landing more info title -->
+
+					</div><!-- landing more info cell overlay -->
+
+				</div><!-- landing more info cell -->
+
+				<div class="landing-more-info-cell landing-more-info-cell-2">
+
+					<div class="landing-more-info-cell-overlay">
+
+						<div class="landing-more-info-title">
+
+							<span>Veterans, Active Duty, and Reservists</span>
+
+						</div><!-- landing more info title -->
+
+					</div><!-- landing more info cell overlay -->
+
+				</div><!-- landing more info cell -->
+
+				<div class="landing-more-info-cell landing-more-info-cell-3">
+
+					<div class="landing-more-info-cell-overlay">
+
+						<div class="landing-more-info-title">
+
+							<span>Volunteers and our Sponsors</span>
+
+						</div><!-- landing more info title -->
+
+					</div><!-- landing more info cell overlay -->
+
+				</div><!-- landing more info cell -->
+
+			</div><!-- landing more info -->
 
 		</div><!-- content container -->	
 

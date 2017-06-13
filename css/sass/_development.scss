@@ -5,7 +5,11 @@
 	width: 100%;
 	max-width: 2000px;
 	margin: 0 auto;
-	padding: 0 5%;
+	padding: 0 10%;
+
+	@media screen and (max-width: 1050px){
+		padding: 0 5%;
+	}
 }
 
 .section-pad {
@@ -45,7 +49,7 @@
 	}
 
 		.hero-content {
-			width: 60%;
+			width: 66%;
 			margin: 4em auto 2em auto;
 			text-align: center;
 			color: $white;
@@ -58,8 +62,8 @@
 		}
 
 		.hero-imagebox {
-			width: 60%;
-			margin-left: 20%;
+			width: 66%;
+			margin-left: 17%;
 			height: 15em;
 			position: relative;
 		}
@@ -129,7 +133,6 @@
 	.what-we-do-cell {
 		width: 32%;
 		background-color: #fff;
-		//@include divshadow(lighten($grey, 35%));
 		border-bottom-right-radius: .25em;
 		border-bottom-left-radius: .25em;
 	}
@@ -180,10 +183,11 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 3em;
 }
 
 	.landing-membership-cell {
-		width: 20%;
+		width: 22%;
 		text-align: center;
 		color: $blue;
 	}
@@ -216,10 +220,67 @@
 				background-image: url('../../images/landing-membership-icon-4.png');
 			}
 
+	.landing-membership-button {
+		width: 32%;
+		background-color: $red;
+		margin: 0 auto;
+		text-align: center;
+		padding: .75em 0;
+		border-radius: .25em;
+		@include divshadow;
+		color: $white;
+		font-weight: bold;
+		@include texthaze($black);
+		cursor: pointer;
+	}
+
 .landing-more-info {
 	width: 100%;
-	background-color: orange;
+	display: flex;
+	justify-content: space-between;
 }
+
+	.landing-more-info-cell {
+		width: 32%;
+		height: 15em;
+		background-size: cover;
+		background-position: center center;
+		border-radius: .25em;
+	}
+		.landing-more-info-cell-1 {
+			background-image: url('../../images/landing-more-info-cell-1.jpg');
+		}
+
+		.landing-more-info-cell-2 {
+			background-image: url('../../images/landing-more-info-cell-2.jpg');
+		}
+
+		.landing-more-info-cell-3 {
+			background-image: url('../../images/landing-more-info-cell-3.jpg');
+		}
+
+		.landing-more-info-cell-overlay {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			background-color: rgba($grey, .35);
+			border-radius: .25em;
+		}
+
+			.landing-more-info-title {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				background-color: rgba($blue, .25);
+				color: $white;
+				@include texthaze($black);
+				//width: 100%;
+				padding: 1em;
+
+				span {
+					font-size: 1.5em;
+				}
+			}
 
 footer {
 	background-color: $black;
