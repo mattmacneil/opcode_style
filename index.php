@@ -1,9 +1,17 @@
 <?php
     include "head.php";
-    include "nav.php";
+   // include "nav.php";
 ?>
 
-index file.
+	<div class="hero">
+
+		<div class="hero-overlay">
+
+			hi
+
+		</div><!-- hero overlay -->
+
+	</div><!-- hero  -->
 
 
 <?php 

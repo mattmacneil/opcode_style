@@ -1,2 +1,17 @@
 @import "mixins";
 @import "vars";
+
+.hero {
+	width: 100%;
+	height: 80%;
+	background-color: $grey;
+	background-image: url('../../images/hero.jpg');
+	background-size: cover;
+}
+
+	.hero-overlay {
+		width: 100%;
+		height: 100%;
+		background-color: rgba($blue, .9);
+	}
+
