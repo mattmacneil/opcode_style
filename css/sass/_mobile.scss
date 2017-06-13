@@ -14,6 +14,16 @@
 		position: relative;
 	}
 
+	.landing-membership {
+		flex-wrap: wrap;
+		margin-bottom: 1em;
+	}
+
+	.landing-membership-cell {
+		width: 45%;
+		margin-bottom: 2em;
+	}
+
 } //1050
 
 @media screen and (max-width: 760px){
@@ -69,4 +79,16 @@
 			margin-bottom: 0;
 		}
 
-} //1050
+} //760
+
+@media screen and (max-width: 550px){
+
+	.hero-imagebox-quote {
+		width: 90%;
+	}
+
+	.landing-membership-cell {
+		width: 100%;
+	}
+
+} // 550
