@@ -10,6 +10,10 @@
 	@media screen and (max-width: 1050px){
 		padding: 0 5%;
 	}
+
+	@media screen and (min-width: 2000px){
+		padding: 0;
+	}
 }
 
 .section-pad {
@@ -272,7 +276,7 @@
 				position: absolute;
 				left: 0;
 				bottom: 0;
-				background-color: rgba($blue, .25);
+				background-color: rgba($blue, .75);
 				color: $white;
 				@include texthaze($black);
 				//width: 100%;
@@ -282,6 +286,21 @@
 					font-size: 1.5em;
 				}
 			}
+
+.landing-partners {
+	display: flex;
+}
+
+	.landing-partners-cell {
+		width: 20%;
+		text-align: center;
+
+		img {
+			height: 5em;
+			display: block;
+			margin: 0 auto;	
+		}
+	}
 
 footer {
 	background-color: $black;

@@ -9,17 +9,17 @@
 
 </footer>
 
-		<script type="text/javascript">
+<script type="text/javascript">
 
-			function openNav() {
-			    document.getElementById("myNav").style.width = "100%";
-			}
+	function openNav() {
+			  document.getElementById("myNav").style.width = "100%";
+	}
+	
+	function closeNav() {
+			  document.getElementById("myNav").style.width = "0%";
+	}	
 
-			function closeNav() {
-			    document.getElementById("myNav").style.width = "0%";
-			}	
-
-		</script>
+</script>
 
 <!-- 
      (c)2017

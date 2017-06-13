@@ -24,6 +24,24 @@
 		margin-bottom: 2em;
 	}
 
+	.landing-partners {
+		flex-wrap: wrap;
+
+		div:nth-child(4) {
+			width: 50%;
+			margin-top: 2em;
+		}
+
+		div:last-of-type {
+			width: 50%;
+			margin-top: 2em;
+		}
+	}
+
+		.landing-partners-cell {
+			width: 33%;
+		}
+
 } //1050
 
 @media screen and (max-width: 760px){

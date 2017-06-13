@@ -224,6 +224,53 @@
 
 	</section><!-- landing more information -->
 
+
+	<section class="bg-white section-pad">
+
+		<div class="content-container">
+
+			<span class="headliner">This Could be a Slider:</span>
+
+    	<div class="landing-partners">
+
+    		<div class="landing-partners-cell">
+
+    			<img src="images/landing-partner-github.png" alt="Partner: Github" />
+
+    		</div><!-- landing partners cell -->
+
+    		<div class="landing-partners-cell">
+
+    			<img src="images/landing-partner-apex.png" alt="Partner: Apex" />
+
+    		</div><!-- landing partners cell -->
+
+    		<div class="landing-partners-cell">
+
+    			<img src="images/landing-partner-docker.png" alt="Partner: Docker" />
+
+    		</div><!-- landing partners cell -->
+
+    		<div class="landing-partners-cell">
+
+    			<img src="images/landing-partner-oreilly.png" alt="Partner: O'Reilly" />
+
+    		</div><!-- landing partners cell -->
+
+    		<div class="landing-partners-cell">
+
+    			<img src="images/landing-partner-hacker-rank.png" alt="Partner: Hacker Rank" />
+
+    		</div><!-- landing partners cell -->
+
+    	</div><!-- landing slider container -->
+
+ 		</div><!-- content container -->
+
+  <script type="text/javascript">jssor_1_slider_init();</script>
+
+ </section>
+
 <?php 
 
     include "footer.php";
