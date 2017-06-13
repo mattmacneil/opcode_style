@@ -2,7 +2,7 @@
     include "head.php";
 ?>
 
-	<div class="hero">
+	<section class="hero">
 
 		<div class="hero-overlay">
 
@@ -38,10 +38,20 @@
 
 		</div><!-- hero overlay -->
 
-	</div><!-- hero  -->
+	</section><!-- hero  -->
 
 	<div class="landing-hero-block">
 	</div><!-- landing hero block -->
+
+	<section class="what-we-do section-pad">
+
+		<div class="content-container">
+
+			hi
+
+		</div><!-- content container -->
+		
+	</section><!-- what we do -->
 
 
 <?php 

@@ -42,13 +42,17 @@
 <!-- The overlay -->
 <div id="myNav" class="overlay">
 
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp;SWIM</a>
+	<a href="index.php" class="noline"><img src="images/nav-logo.png" class="overlay-logo" alt="Operation Code Home" /></a>
 
-  THIS IS THE THING
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp;</a>
 
   <!-- Overlay content -->
   <div class="overlay-content">
-    rap
+    
+    <a href="XXX">Code Schools</a>
+    <a href="XXX">Donate</a>
+    <a href="XXX">Log In</a>
+    <a href="XXX">Join Now!</a>
 
   </div><!-- overlay content -->
 

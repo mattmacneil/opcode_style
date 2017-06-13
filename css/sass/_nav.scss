@@ -55,6 +55,14 @@ nav{
 
 // OVERLAY
 
+.overlay-logo {
+	position: absolute;
+	left: 5%;
+	top: 2.5em;
+	height: 2em;
+	z-index: 9999;
+}
+
 .nav-mobile-button{
 	float: right;
 	height: 2.5em;
@@ -94,22 +102,19 @@ $nav-height: 3em;
 
 .overlay .closebtn {
     position: absolute;
-    top: $nav-top-gap;
+    top: 2.25em;
     right: 5%;
     color: $orange;
-    width: $nav-height;
-    height: $nav-height;
-    background-color: $orange;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: $white;
 		border-radius: .25em;
 		@include divshadow($black);
-		background-image: url('assets/images/nav-mobile-close.png');
+		background-image: url('../../images/nav-mobile-close.png');
 		background-size: 50% auto;
 		background-position: center center;
 		background-repeat: no-repeat;
 		z-index: 9999;
-		width: 3em;
-		height: 3em;
-		background-color: orange;
 
 		&:before {
 			content: "close";
@@ -125,78 +130,37 @@ $nav-height: 3em;
 		}
 }
 
-.overlay .title {
-    position: absolute;
-    top: $nav-top-gap;
-    left: 5%;
-    font-weight: bold;
-    cursor: pointer;
-
-    img {
-    	height: $nav-height;
-    }
-
-		&:after {
-			content: "MGS|JP|MA";
-			top: 100%;
-			left: 0;
-			width: 200%;
-			position: absolute;
-			white-space: pre;
-			text-transform: lowercase;
-			font-variant: small-caps;
-			padding-top: .25em;
-			background-color: transparent;
-		}
-}
-
 .overlay-content {
-    position: relative;
-    top: 8em;
-    width: 100%;
-    padding: 0 5%;
-}
+	width: 100%;
+	margin-top: 7.5em;
+	padding: 3em 5% 0 5%;
+	border-top: 1px solid $white;
+	text-align: center;
+	color: $white;
+	@include texthaze($black);
 
-	.overlay-content-row{
-		width: 100%;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: justify;
-		    -ms-flex-pack: justify;
-		        justify-content: space-between;
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+	a {
+		font-size: 2em;
+		display: block;
+		margin-bottom: 1em;
+		text-decoration: none;
 	}
 
-		.overlay-content-cell{
-			width: 32%;
-			margin-bottom: 2%;
-			margin-bottom: 2vw;
-		}
+	a:nth-child(3) {
+		padding: .25em;
+		border: 1px solid $white;
+		border-radius: .25em;
+		margin-bottom: .25em;
+		width: 70%;
+		margin-left: 15%;
+	}
 
-			.overlay-content-cell-inner{
-				width: 100%;
-				height: 100%;
-				background-color: $white;
-				display: -webkit-box;
-				display: -ms-flexbox;
-				display: flex;
-				-webkit-box-pack: justify;
-				    -ms-flex-pack: justify;
-				        justify-content: space-between;
-				-webkit-box-orient: vertical;
-				-webkit-box-direction: normal;
-				    -ms-flex-direction: column;
-				        flex-direction: column;
-				-webkit-box-align: center;
-				    -ms-flex-align: center;
-				        align-items: center;
-				@include rounded(1em);
-				padding: 2em .25em;
-
-				img{
-					height: 4em;
-					margin-bottom: .5em;
-				}
-			}
+	a:last-of-type {
+		padding: .25em;
+		border: 1px solid $red;
+		background-color: $red;
+		border-radius: .25em;
+		width: 70%;
+		margin-left: 15%;
+	}
+}
