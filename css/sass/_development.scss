@@ -1,9 +1,15 @@
 @import "mixins";
 @import "vars";
 
+.content-container {
+	width: 100%;
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
 .hero {
 	width: 100%;
-	height: 80%;
 	background-color: $grey;
 	background-image: url('../../images/hero.jpg');
 	background-size: cover;
@@ -13,5 +19,51 @@
 		width: 100%;
 		height: 100%;
 		background-color: rgba($blue, .9);
+		background-image: url('../../images/stripe.png');
+		padding-top: 5em;
 	}
 
+		.hero-content {
+			width: 50%;
+			margin: 4em auto 2em auto;
+			text-align: center;
+			color: $white;
+			@include texthaze($black);
+
+			h1 {
+				font-size: 2em;
+				font-weight: bold;
+			}
+		}
+
+		.hero-imagebox {
+			width: 60%;
+			margin-left: 20%;
+			height: 15em;
+			position: relative;
+		}
+
+			.hero-imagebox-overflow {
+				width: 100%;
+				height: 100%;
+				height: calc(100% + 3em);
+				position: absolute;
+			}
+
+				.hero-imagebox-overflow-inner {
+					width: 100%;
+					height: 100%;
+					background-color: $white;
+					border-radius: .25em;
+					position: relative;
+					box-shadow: 10px 10px 50px 0px rgba($black,0.8);
+					background-image: url('../../images/hero-imagebox-overflow-inner.jpg');
+					background-position: center center;
+					background-size: cover;
+				}
+
+					.hero-imagebox-overlay {
+						width: 100%;
+						height: 100%;
+						background-color: rgba($black, .25);
+					}
