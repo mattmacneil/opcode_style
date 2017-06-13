@@ -37,6 +37,11 @@ nav{
 				margin-right: 1.25em;
 				padding-top: .5em;
 				padding-bottom: .5em;
+
+				&:hover {
+					border-bottom: 1px solid $white;
+					@include fader;
+				}
 			}
 
 			a:nth-child(3),
@@ -46,9 +51,15 @@ nav{
 				padding-right: .5em;
 			}
 
+			a:nth-child(3) {
+				border: 1px solid $white;
+				margin-right: .25em;
+			}
+
 			a:last-of-type {
 				margin-right: 0;
 				background-color: $red;
+				border: 1px solid $red;
 			}
 		}
 

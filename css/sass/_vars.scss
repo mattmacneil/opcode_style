@@ -1,6 +1,7 @@
 $black: #2F3448;
 $white: #FAF4EF;
 $grey: grey;
+$lightgrey: #F0F2F2;
 $red: lighten(#8D1D11, 10%);
 $green: green;
 $blue: #6699A6;
@@ -10,7 +11,7 @@ $pink: pink;
 
 ///
 
-$body_background_color: $white;
+$body_background_color: $lightgrey;
 $body_background_image: none;
 
 $headline-font: "pfd", "Arial Black", Gadget, sans-serif;
@@ -19,3 +20,5 @@ $headline-weight: 700;
 $body-font: "pfd", Arial, Helvetica, sans-serif;
 $body-weight: 300;
 $body-text-color: $black;
+
+$cursivefont: "cursives", cursive;
