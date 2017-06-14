@@ -97,6 +97,15 @@
 			margin-bottom: 0;
 		}
 
+		.landing-more-info {
+			flex-direction: column;
+		}
+
+			.landing-more-info-cell {
+				width: 100%;
+				margin-bottom: 2em;
+			}
+
 } //760
 
 @media screen and (max-width: 550px){
