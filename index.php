@@ -289,6 +289,12 @@
 	 						As a 501(c)(3) veteran-led nonprofit organization, our programs and services are maintained through the efforts of our volunteer staff. Your financial support allows us to continue helping the military community learn software development, enter the tech industry, and code the future.
 	 					</p>
 
+	 					<div class="front-join-button">
+
+	 						join us
+
+	 					</div>
+
 	 				</div><!-- front donate -->
 
 	 				<div class="front-join">
@@ -302,6 +308,12 @@
 	 					<p>
 	 						Join our community for free and jumpstart your skills today!
 	 					</p>
+
+	 					<div class="front-join-button">
+
+	 						join us
+
+	 					</div>
 
 	 				</div><!-- front join -->
 

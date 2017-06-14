@@ -342,6 +342,13 @@
 				}
 			}
 
+			.front-join-button {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				background-color: green;
+			}
+
 			.front-donate {
 				padding-right: 5%;
 				@include texthaze($black);
