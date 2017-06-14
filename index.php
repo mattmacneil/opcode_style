@@ -28,7 +28,7 @@
 
 									<div class="hero-imagebox-quote">
 
-										<span>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&rdquo;</span>
+										<span>&ldquo;Operation Code not only paved a route for me; they also showed me what I can build with my imagination.&rdquo;</span>
 
 										<br />
 
@@ -67,6 +67,9 @@
 					</div><!-- what we do image -->
 
 					<div class="what-we-do-content">
+
+						<div class="what-we-do-snipe">
+						</div><!-- what we do snipe -->
 
 						<h2>Career Services:</h2>
 
@@ -224,12 +227,11 @@
 
 	</section><!-- landing more information -->
 
-
 	<section class="bg-white section-pad">
 
 		<div class="content-container">
 
-			<span class="headliner">This Could be a Slider:</span>
+			<span class="headliner">Could be slider when more sponsors:</span>
 
     	<div class="landing-partners">
 
@@ -267,9 +269,51 @@
 
  		</div><!-- content container -->
 
-  <script type="text/javascript">jssor_1_slider_init();</script>
-
  </section>
+
+ <section class="front-donate-join-bg">
+
+ 	<div class="front-donate-join">
+
+	 	<div class="front-donate-join-overlay">
+
+	 		<div class="content-container section-pad">
+
+	 			<div class="front-donate-container">
+
+	 				<div class="front-donate">
+
+	 					<span class="headliner">Donate:</span>
+
+	 					<p>
+	 						As a 501(c)(3) veteran-led nonprofit organization, our programs and services are maintained through the efforts of our volunteer staff. Your financial support allows us to continue helping the military community learn software development, enter the tech industry, and code the future.
+	 					</p>
+
+	 				</div><!-- front donate -->
+
+	 				<div class="front-join">
+
+	 					<span class="headliner">Join:</span>
+
+	 					<p>
+	 						Operation Code is leading the way to expand opportunities for military veterans and their families to learn new skills, and build a career in the fast-growing technology sector.
+	 					</p>
+
+	 					<p>
+	 						Join our community for free and jumpstart your skills today!
+	 					</p>
+
+	 				</div><!-- front join -->
+
+	 			</div><!-- front donate container -->
+
+	 		</div><!-- content container -->
+
+	 	</div><!-- front donate join overlay -->
+
+	 </div><!-- front donate join -->
+
+ </section><!-- front donate join bg -->
 
 <?php 
 

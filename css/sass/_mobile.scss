@@ -97,6 +97,10 @@
 			margin-bottom: 0;
 		}
 
+		.landing-membership-button {
+			width: 80%;
+		}
+
 		.landing-more-info {
 			flex-direction: column;
 		}
@@ -117,5 +121,35 @@
 	.landing-membership-cell {
 		width: 100%;
 	}
+
+	.what-we-do-cell {
+		width: 100%;
+		margin-bottom: 2em;
+		@include divshadow(lighten($grey, 30%));
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+		border-top-left-radius: .5em;
+		border-bottom-right-radius: .5em;
+	}
+
+		.what-we-do-image {
+			display: none;
+		}
+
+		.what-we-do-content {
+			width: 100%;
+			float: right;
+			padding: 2em;
+			padding-bottom: 3em;
+			margin-bottom: 0;
+			border-bottom-right-radius: .5em;
+		}
+
+	.landing-partners-cell {
+		img {
+			height: 4em;
+		}
+	}
+
 
 } // 550

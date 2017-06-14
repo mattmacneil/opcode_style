@@ -169,6 +169,7 @@
 		width: 100%;
 		margin-bottom: 3em;
 		padding: 0 1em;
+		position: relative;
 
 		h2 {
 			font-weight: bold;
@@ -301,6 +302,56 @@
 			margin: 0 auto;	
 		}
 	}
+
+.front-donate-join-bg {
+	width: 100%;
+	background-image: url('../../images/hero.jpg');
+	background-size: cover;
+}
+
+	.front-donate-join {
+		width: 100%;
+		background: linear-gradient(to left, transparent 50%, rgba($blue,.75) 50%);
+	}
+
+	.front-donate-join-overlay {
+		width: 100%;
+		height: 100%;
+		background-color: pink;
+		background: linear-gradient(to left, rgba($red,.5) 50%, transparent 50%);
+	}
+
+		.front-donate-container {
+			width: 100%;
+			display: flex;
+			color: $white;
+		}
+
+			.front-donate,
+			.front-join {
+				width: 50%;
+				padding-bottom: 5em;
+				position: relative;
+
+				p {
+					margin-bottom: 1em;
+				}
+
+				.headliner {
+					text-align: left;
+				}
+			}
+
+			.front-donate {
+				padding-right: 5%;
+				@include texthaze($black);
+			}
+
+			.front-join {
+				padding-left: 5%;
+				@include texthaze(darken($red, 10%));
+			}
+
 
 footer {
 	background-color: $black;
